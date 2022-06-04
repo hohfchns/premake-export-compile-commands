@@ -1,4 +1,6 @@
-## Generate compile_commands.json for premake projects
+## Generate compile_commands.json for premake projects with support for header files
+
+### This fork currently just adds a line of code to also implement the includes for use within header files
 
 This module implements [JSON Compilation Database Format
 Specification](http://clang.llvm.org/docs/JSONCompilationDatabase.html) for
