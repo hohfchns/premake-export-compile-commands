@@ -58,7 +58,7 @@ function m.generateCompileCommand(prj, cfg, node)
 end
 
 function m.includeFile(prj, node, depth)
-  return path.iscppfile(node.abspath)
+  return path.iscppfile(node.abspath) or path.iscppheader
 end
 
 function m.getConfig(prj)
